@@ -37,13 +37,11 @@
     <Folder Include="MoiveRate\" />
     <Folder Include="Resume\" />
     <Folder Include="Stock\" />
-    <Folder Include="Stock\.ipynb_checkpoints\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Data\employees_dataset.csv" />
     <Content Include="Data\movies_dataset.csv" />
     <Content Include="Data\msft_stockprices_dataset.csv" />
-    <Content Include="Stock\.ipynb_checkpoints\Untitled-checkpoint.ipynb" />
     <Content Include="Stock\Stock Result.png" />
   </ItemGroup>
   <ItemGroup>
