@@ -7,7 +7,7 @@ This project is used to solve the 3 exercise problem of Machine Learning - 21 da
 2. Movie rating prediction
 3. Resume Filter 
 
-## package requirements
+## Package required
 Please see the requirements.txt file
 
 ## Run
