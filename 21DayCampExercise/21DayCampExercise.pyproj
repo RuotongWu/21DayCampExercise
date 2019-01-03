@@ -1,0 +1,61 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>2d1f126f-a7c1-499d-b6f8-0afe2f661756</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Stock\Stock.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>21DayCampExercise</Name>
+    <RootNamespace>21DayCampExercise</RootNamespace>
+    <InterpreterId>MSBuild|21DayCampsVE|$(MSBuildProjectFullPath)</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Interpreter Include="..\..\..\Demos\21DayCampsVE\">
+      <Id>21DayCampsVE</Id>
+      <Version>3.6</Version>
+      <Description>21DayCampsVE (Python 3.6 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\" />
+    <Folder Include="MoiveRate\" />
+    <Folder Include="Resume\" />
+    <Folder Include="Stock\" />
+    <Folder Include="Stock\.ipynb_checkpoints\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\employees_dataset.csv" />
+    <Content Include="Data\movies_dataset.csv" />
+    <Content Include="Data\msft_stockprices_dataset.csv" />
+    <Content Include="Stock\.ipynb_checkpoints\Untitled-checkpoint.ipynb" />
+    <Content Include="Stock\Stock Result.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Stock\Stock.py" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "21DayCampExercise", "21DayCampExercise\21DayCampExercise.pyproj", "{2D1F126F-A7C1-499D-B6F8-0AFE2F661756}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D1F126F-A7C1-499D-B6F8-0AFE2F661756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D1F126F-A7C1-499D-B6F8-0AFE2F661756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36F63B1F-E257-4693-A4BE-49C7383C4D16}
+	EndGlobalSection
+EndGlobal
