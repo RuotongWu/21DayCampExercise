@@ -15,3 +15,7 @@ Please see the requirements.txt file
 ```
 python Stock.py
 ```
+2. Resume Filter
+```
+python Resume.py
+```
