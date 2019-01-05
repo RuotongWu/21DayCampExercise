@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2d1f126f-a7c1-499d-b6f8-0afe2f661756</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Stock.py</StartupFile>
+    <StartupFile>Resume.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -39,9 +39,13 @@
     <Content Include="Data\employees_dataset.csv" />
     <Content Include="Data\movies_dataset.csv" />
     <Content Include="Data\msft_stockprices_dataset.csv" />
+    <Content Include="requirements.txt" />
     <Content Include="Stock Result.png" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Resume.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Stock.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
